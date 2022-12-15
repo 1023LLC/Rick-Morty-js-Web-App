@@ -12,15 +12,18 @@ h1{
 }
 h2{
     text-align: center;
-    font-size: 13px;
+    font-size: 15px !important;
 }
-button{
+/* button{
     background-color: orangered; 
     color: white;
-}
+} */
 .display-4{
     padding-bottom: 15px  !important;
     font-size: 30px !important;
+}
+#refresh{
+    align-items: center !important;
 }
 footer{
     color: orangered;
