@@ -1,7 +1,7 @@
-// var requestOptions = {
-//     method: 'GET',
-//     redirect: 'follow'
-//   };
+var requestOptions = {
+    method: 'GET',
+    redirect: 'follow'
+  };
 //   Get button, add an event listener and create a function.
   document.getElementById("view").addEventListener('click', getData);
 
