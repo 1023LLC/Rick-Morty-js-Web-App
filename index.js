@@ -32,5 +32,12 @@
 //   });
 // };
 
+var fetchResults = ''
 
+function fetchRandom(){
+
+  let displayRandom= document.createElement('p')
+  displayRandom.className='lead'
+  fetch("https://www.reddit.com/r/Wallstreetbets/top.json?limit=10&t=year")
+}
 
