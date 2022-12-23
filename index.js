@@ -34,6 +34,15 @@ makeCards.forEach(character)
     }); 
 }
 
+
+// Create a search event.
+const form =  document.querySelector('#search-btn');
+const inputName = document.querySelector('#search');
+const characterList = document.createElement('div');
+
+const searchCharacterName = () => {
+    form.addEventListener('')
+}
 // CAROUSEL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 {/* <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 <ol class="carousel-indicators">
