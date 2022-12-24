@@ -38,11 +38,34 @@ makeCards.forEach(character)
 // Create a search event.
 const form =  document.querySelector('#search-btn');
 const inputName = document.querySelector('#search');
+const characterName =  document.createElement('div');
 const characterList = document.createElement('div');
 
-const searchCharacterName = () => {
-    form.addEventListener('')
+const searchCharacter = () => {
+    characterList.forEach((characterName) => {
+
+    })
 }
+
+const searchCharacterName = () => {
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        fetch(`https://rickandmortyapi.com/api/character ${inputName.value}`,{
+    })
+    .then(response=>response.json())
+    .then(data=>{
+        data.items.forEach((element)=>{
+            const myCharacter= document.createElement('div');
+            myCharacter.innerHTML = `<div class="card">${element.login}</li> <img src= "${element.avatar_url}"/>  <a href="${element.repos_url}">Repository Link</a>`
+            characterName.appendChild(myCharacter);
+        })    
+    })
+})
+};
+
+searchCharacterName();
+searchCharacter();
+
 // CAROUSEL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 {/* <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 <ol class="carousel-indicators">

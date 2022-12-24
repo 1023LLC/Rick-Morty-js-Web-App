@@ -26,6 +26,11 @@ For this project, you're going build a Single Page Application (SPA). Building t
 
 5. Follow good coding practices. Keep your code DRY (Do not repeat yourself) by utilizing functions to abstract repetitive code.
 
+# How to install and run the project.
+To fetch data from our API in this lab, you are required to fetch data from the [Rick and Morty public API](https://rickandmortyapi.com/api/character).
+
+
+
 # Stretch Goals
 1. Use [json-server](https://www.npmjs.com/package/json-server) in your project to persist your app's interactivity.
 
