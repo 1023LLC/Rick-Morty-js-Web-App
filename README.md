@@ -114,7 +114,9 @@ If you prefer, instead of using the template, you can create a db.json file with
     ]
 >   }
 `
+
 Then, assuming you have json-server installed globally, you can run this command to run the server:
+
 `
  > json-server --watch db.json
 `
