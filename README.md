@@ -17,9 +17,11 @@ For this project, you're going build a Single Page Application (SPA). Building t
 
 # Project Description.
 1. Functionality.
+
 The application fetches data from a [public API](https://rickandmortyapi.com/api/character) and enables the user to view characters from the Rick and Morty show. The user can also search for characters in the show using the search button.
 
 2. Challenges faced.
+
 The main challenge was fnding the right public API to implement onto the project. Most public APIs have a [CORS(Cross-origin resource sharing)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) security feature that restricts HTTP requests that are initiated from scripts running in the browser, thus making it impossible to use some of the APIs.
 
 # Project Requirements
