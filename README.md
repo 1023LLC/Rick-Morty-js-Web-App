@@ -96,7 +96,7 @@ Check in with your instructors to make sure your scope and timeline are manageab
 You can use this json-server template to generate your backend code. Using this template will make it easier to deploy your backend later on.
 
 If you prefer, instead of using the template, you can create a db.json file with a structure in the root of your project that looks like this:
-
+`
 >   {
     "toys": [
         {
@@ -113,9 +113,11 @@ If you prefer, instead of using the template, you can create a db.json file with
         }
     ]
 >   }
+`
 Then, assuming you have json-server installed globally, you can run this command to run the server:
-
+`
  > json-server --watch db.json
+`
 
 Whatever top-level keys exist in your db.json file will determine the routes available. In the example above, since we have a key of toys pointing to an array of toy objects, json-server will generate the following routes:
 
