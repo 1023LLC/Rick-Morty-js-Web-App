@@ -37,10 +37,10 @@ The main challenge was fnding the right public API to implement onto the project
 # How to install and run the project.
 To fetch data from our API in this lab, you are required to fetch data from the [Rick and Morty public API](https://rickandmortyapi.com/api/character).
 
-# How to Use the Project.
+<!-- # How to Use the Project.
 On VsCode, pen the `index.html` file using [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 To view the characters from the show, click the view button.
-To seach for characters on the show, use the search bar.
+To seach for characters on the show, use the search bar. -->
 
 # Stretch Goals
 1. Use [json-server](https://www.npmjs.com/package/json-server) in your project to persist your app's interactivity.
