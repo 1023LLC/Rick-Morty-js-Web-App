@@ -16,12 +16,11 @@ You’ve worked so hard to get here and have learned a ton. Now it's time to bri
 For this project, you're going build a Single Page Application (SPA). Building this application will be challenging because it will integrate everything you've learned up to this point. Your frontend will be built with HTML, CSS, and JavaScript and will communicate with a public API.
 
 # Project Description.
-1. Functionality.
 
-The application fetches data from a [public API](https://rickandmortyapi.com/api/character) and enables the user to view characters from the Rick and Morty show. The user can also search for characters in the show using the search button.
+# Rick and Morty API.
+ This is an application that generates characters from the Rick and Morty show by fetching data from a [public API](https://rickandmortyapi.com/api/character). The user can also search for characters in the show using the search button.
 
-2. Challenges faced.
-
+# Challenges faced.
 The main challenge was fnding the right public API to implement onto the project. Most public APIs have a [CORS(Cross-origin resource sharing)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) security feature that restricts HTTP requests that are initiated from scripts running in the browser, thus making it impossible to use some of the APIs.
 
 # Project Requirements
@@ -38,6 +37,7 @@ The main challenge was fnding the right public API to implement onto the project
 # How to install and run the project.
 To fetch data from our API in this lab, you are required to fetch data from the [Rick and Morty public API](https://rickandmortyapi.com/api/character).
 
+# How to Use the Project.
 
 
 # Stretch Goals
