@@ -1,4 +1,4 @@
-# Phase-1-Independent-Project_ Rick and Morty API
+# Phase-1-Independent-Project
 
 # Learning Goals
 * Design and architect features across a frontend
