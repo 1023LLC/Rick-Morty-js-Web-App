@@ -18,7 +18,7 @@
       <a class="navbar-brand" href="#" style="color:green; font-size:larger;" style="font-family: paralines; font-weight: bold;">The Rick and Morty API</a>
       <form id="search-btn" class="form-inline my-2 my-lg-0">
         <input id='search' class="form-control mr-sm-2" type="search" placeholder="Search Characters" aria-label="Search">
-        <button id="search-button" class="btn btn-outline-success my-2 my-sm-0" type="submit" style="color: green; border-color:black; padding-left: 20px;">Search</button>
+        <button onclick="changeButtonColor()" id="search-button" class="btn btn-outline-success my-2 my-sm-0" type="submit" style="color: green; border-color:black; padding-left: 20px;">Search</button>
        </form>
       
     </nav>
@@ -41,7 +41,7 @@
   </div>
   <!-- Jumbotron -->
   <div class="jumbotron">
-    <h1 class="display-4" style="font-family: paralines; text-align: center;  font-size: 33px;">Rick and Morty<a id ="view" class="btn btn-primary btn-lg" href="#" role="button" style="background-color: green; color: black; border-color: black;"> View Characters</a></h1>
+    <h1 class="display-4" style="font-family: paralines; text-align: center;  font-size: 33px;">Rick and Morty<a onclick="changeColor()" id ="view" class="btn btn-primary btn-lg" href="#" role="button" style="background-color: green; color: black; border-color: black;"> View Characters</a></h1>
     <p class="lead">At first glance, Rick and Morty looks like just another animated situational family comedy, like Family Guy or The Simpsons. Theoretically, that’s true. When sociopathic scientist and estranged grandfather Rick returns to his daughter Beth’s life, he brings with him all sorts of family drama. Watching Beth’s family of four navigate life with their self-centered, cynical, and narcissistic grandfather is, indeed, often very funny. </p>
   </div>
 

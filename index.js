@@ -37,9 +37,16 @@ makeCards.forEach(character)
     }); 
 }
 
-// Change view button  color onClick().
-let myBtn = document.querySelector('#view');
-myBtn.addEventListener('click', () => myBtn.style.color = '##ccffcc')
+// Change view button color onClick().
+function changeColor(){
+document.getElementById('view').style.backgroundColor = '#ace600';
+}
+
+// Change search button color onClick().
+function changeButtonColor(){
+    document.getElementById('search-button').style.backgroundColor = '#b3ff66';
+    }
+    
 
 // Create a search event.
 const form =  document.querySelector('#search-btn');
