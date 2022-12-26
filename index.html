@@ -19,11 +19,21 @@
       <a class="navbar-brand" href="#" style="color:green; font-size:larger;" style="font-family: paralines; font-weight: bold;">The Rick and Morty API</a>
       <form id="search-btn" class="form-inline my-2 my-lg-0">
         <input id='search' class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="color: green; border-color:black; padding-left: 20px;">Search</button>
+        <button id="search-button" class="btn btn-outline-success my-2 my-sm-0" type="submit" style="color: green; border-color:black; padding-left: 20px;">Search</button>
        </form>
-    
+      
     </nav>
   </section>
+
+  <!-- Search results -->
+  <div id="search-deck"> 
+    <div id="character-name" class="cards"> 
+      <!-- <div id="character-name" class="card-body">
+      
+      </div> -->
+
+    </div> 
+  </div>   
   
 <!-- Body elements -->
 <h1 style="font-family: paralines; text-align: center; font-weight: bold; font-size: 35px;">Now on Adult Swim and HBO Max!</h1>
@@ -36,16 +46,7 @@
     <p class="lead">At first glance, Rick and Morty looks like just another animated situational family comedy, like Family Guy or The Simpsons. Theoretically, that’s true. When sociopathic scientist and estranged grandfather Rick returns to his daughter Beth’s life, he brings with him all sorts of family drama. Watching Beth’s family of four navigate life with their self-centered, cynical, and narcissistic grandfather is, indeed, often very funny. </p>
   </div>
 
-    <!-- Search results -->
-    <!-- <div class="card" style="width: 18rem;">
-      <div class="card-body">
-      <ul class="card-text">
-
-      </ul>  
-      </div>
-    </div> -->
-
-    <!-- Display characters -->
+  <!-- Display characters -->
   <div class="card-deck">
 
     <!-- Characters will be displayed here -->
