@@ -39,7 +39,7 @@ makeCards.forEach(character)
 
 // Change view button color onClick().
 function changeColor(){
-document.getElementById('view').style.backgroundColor = '#ace600';
+document.getElementById('view').style.backgroundColor = '#b3ff67';
 }
 
 // Change search button color onClick().
