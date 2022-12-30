@@ -45,8 +45,9 @@ https://moringa.instructure.com/courses/186/pages/using-fetch?module_item_id=359
 
 
 - Javascript events:
-https://moringa.instructure.com/courses/186/pages/video-dom-events?module_item_id=35951
 
-https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMContentLoaded_event
+https://moringa.instructure.com/courses/186/pages/video-dom-events?module_item_id=35951 .
 
-https://linuxhint.com/change-button-color-on-click-javascript/
+https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMContentLoaded_event .
+
+https://linuxhint.com/change-button-color-on-click-javascript/ .
