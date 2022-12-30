@@ -1,7 +1,5 @@
 // Fire an event when the document has been completely parsed.
-window.addEventListener('DOMContentLoaded', (event) => {
-    alert('Welcome');
-});
+window.addEventListener('DOMContentLoaded', makeCards);
 
 // Fetch the data from the public API URL.
 fetch("https://rickandmortyapi.com/api/character")
@@ -13,6 +11,7 @@ fetch("https://rickandmortyapi.com/api/character")
 let displayItems = document.querySelector('#view');
 // Reference the data from our API to a variable.
 let cardContainer = document.querySelector('.card-deck');
+
 makeCards.forEach(character)
     function makeCards(charactersArray){
         // Add an event listener to the view button
@@ -65,7 +64,7 @@ const searchCharacterName= () => {
 const searchCharacter = ()=>{
     form.addEventListener('submit', (e)=>{
         e.preventDefault();
-        fetch(`https://rickandmortyapi.com/api/character?name=${characterName.name}`)
+        fetch(`https://rickandmortyapi.com/api/character${characterName.name}`)
         .then(response=>response.json())
         .then(data=>{ 
             data.items.forEach((element)=>{
