@@ -31,7 +31,7 @@ To fetch data from our API in this lab, you are required to fetch data from the 
 As I user:
 - I can view all Rick& Morty Sitcom characters.
 - I can search for characters on the show.
-- I can be able to view how many episodes the characters appeared on.
+<!-- - I can be able to view how many episodes the characters appeared on. -->
 ```
 
 ## Research websites used to learn

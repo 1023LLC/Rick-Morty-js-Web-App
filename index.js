@@ -45,6 +45,9 @@ makeCards.forEach(character)
 function changeColor(){
     document.getElementById('view').style.backgroundColor = '#b3ff67';
 }
+
+// let btnView = document.getElementById('view');
+//     btnView.addEventListener('click', () => btnView.style.backgroundColor='#b3ff67')
 // Change search button color onClick().
 function changeButtonColor(){
     document.getElementById('search-button').style.backgroundColor = '#b3ff66';
