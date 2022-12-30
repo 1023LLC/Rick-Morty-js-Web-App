@@ -21,6 +21,11 @@ For this project, you're going build a Single Page Application (SPA). Building t
 # Challenges faced.
 The main challenge was fnding the right public API to implement onto the project. Most public APIs have a [CORS(Cross-origin resource sharing)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) security feature that restricts HTTP requests that are initiated from scripts running in the browser, thus making it impossible to use some of the APIs.
 
+* Link to live site on GitHub: https://github.com/SusanGithaigaN/Phase-1-Independent-Project 
+
+The following image demonstrates the application functionality:
+<img src ="./project.png">
+
 # Project Requirements
 1. Your app must be a HTML/CSS/JS/Bootstrap or Tailwind frontend that accesses data from a public API. All interactions between the client and the API should be handled asynchronously and use JSON as the communication format.
 

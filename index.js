@@ -3,7 +3,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
     alert('Welcome');
 });
 
-
 // Fetch the data from the public API URL.
 fetch("https://rickandmortyapi.com/api/character")
     // Jsonify the response.
@@ -47,12 +46,10 @@ makeCards.forEach(character)
 function changeColor(){
     document.getElementById('view').style.backgroundColor = '#b3ff67';
 }
-
 // Change search button color onClick().
 function changeButtonColor(){
     document.getElementById('search-button').style.backgroundColor = '#b3ff66';
     }
-    
 
 // Create a search event.
 const form =  document.querySelector('#search-btn');
@@ -64,7 +61,7 @@ const searchCharacterName= () => {
     characterName.forEach((characterName)=> {
    })
 }
-    
+
 const searchCharacter = ()=>{
     form.addEventListener('submit', (e)=>{
         e.preventDefault();
