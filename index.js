@@ -1,3 +1,9 @@
+// Fire an event when the document has been completely parsed.
+window.addEventListener('DOMContentLoaded', (event) => {
+    alert('Welcome');
+});
+
+
 // Fetch the data from the public API URL.
 fetch("https://rickandmortyapi.com/api/character")
     // Jsonify the response.
