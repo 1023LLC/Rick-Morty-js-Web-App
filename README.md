@@ -37,17 +37,17 @@ As I user:
 ## Research websites used to learn
 >
 - Public API list:
-https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/
+    https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/
 
 - Fetching data from an API:
-https://moringa.instructure.com/courses/186/pages/using-fetch?module_item_id=35971
+    https://rapidapi.com/guides/how-to-get-data-from-api-javascript
 
-- Searching  data from a public API:
-
+- How to use search filters on an API:
+    https://www.youtube.com/watch?v=qbdSyMdjydM
 
 - Javascript events:
 
-    https://moringa.instructure.com/courses/186/pages/video-dom-events?module_item_id=35951 .
+    <!-- https://moringa.instructure.com/courses/186/pages/video-dom-events?module_item_id=35951 . -->
 
     https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMContentLoaded_event .
 

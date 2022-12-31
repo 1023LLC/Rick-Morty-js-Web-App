@@ -29,7 +29,7 @@ makeCards.forEach(character)
                                 <br>
                                 <p class="card-text"  style="font-size-10px;">Status: ${character.status}</p>
                                 <p class="card-text"  style="font-size-10px;">Species: ${character.species}</p>
-                                
+                                                                
                             </div>
                             <div class="card-footer">
                                 <small class="text-muted">Planet: ${character.origin.name}</small>
@@ -54,27 +54,23 @@ function changeButtonColor(){
     }
 
 // Create a search event.
-const form =  document.querySelector('#search-btn');
-const inputCharacter = document.querySelector('.form-control mr-sm-2');
-const characterList = document.getElementById('search-deck');
-const characterName = document.querySelectorAll('#character-name');
-
-const searchCharacterName= () => {
-    characterName.forEach((characterName)=> {
-   })
-}
+const form =  document.getElementById('search-btn');
+const inputCharacter = document.getElementsByClassName('form-control mr-sm-2');
+const characterList = document.getElementsByClassName('card-group');
+// const characterName = document.getElementById('character-name');
 
 const searchCharacter = ()=>{
     form.addEventListener('submit', (e)=>{
         e.preventDefault();
-        fetch(`https://rickandmortyapi.com/api/character${characterName.name}`)
+        fetch(`https://rickandmortyapi.com/api/character/?name${inputCharacter.value}`)
         .then(response=>response.json())
         .then(data=>{ 
-            data.items.forEach((element)=>{
-                const character = document.createElement('div');
-                character.innerHTML =
+            data.items.forEach((character)=>{
+                // const myCharacter = document.createElement('div');
+                characterList.innerHTML =
                 `
-                    <div class="card">
+                <div class="card-group">
+                    <div id="character-name" class="card">
                             <img class="card-img-top"alt="Card image cap" src =${character.image}></img>
                                 <div class="card-body">
                                     <h5 class="card-title">Name: ${character.name}</<h5>
@@ -85,6 +81,7 @@ const searchCharacter = ()=>{
                                     <small class="text-muted">Planet: ${character.origin.name}</small>
                                 </div>
                         </div>
+                </div>
                 `
                 characterList.appendChild(character);
             })
@@ -94,4 +91,3 @@ const searchCharacter = ()=>{
     })
 };
 searchCharacter();
-searchCharacterName();
