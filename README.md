@@ -1,12 +1,4 @@
-# Phase-1-Independent-Project
-
-# Learning Goals
-* Design and architect features across a frontend
-* Communicate and collaborate in a technical environment
-* Integrate JavaScript and an external API
-* Debug issues in small- to medium-sized projects
-* Build and iterate on a project MVP
-
+# Rick & Morty API
 
 # Project Description.
  This is an application that generates characters from the Rick and Morty show by fetching data from a [public API](https://rickandmortyapi.com/api/character). The user can also search for characters in the show using the search button.
@@ -20,11 +12,12 @@
 
 
 # Challenges faced.
-The main challenge was fnding the right public API to implement onto the project. Most public APIs have a [CORS(Cross-origin resource sharing)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) security feature that restricts HTTP requests that are initiated from scripts running in the browser, thus making it impossible to use some of the APIs.
+The main challenge was finding the right public API to implement onto the project. Most public APIs have a [CORS(Cross-origin resource sharing)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) security feature that restricts HTTP requests that are initiated from scripts running in the browser, thus making it impossible to use some of the APIs.
 
 
 # How to install and run the project.
-To fetch data from our API in this lab, you are required to fetch data from the [Rick and Morty public API](https://rickandmortyapi.com/api/character).
+To fetch data from our API in this lab, you are required to fetch data from the [Rick & Morty public API](https://rickandmortyapi.com/api/character).
+To filter characters, use the following API endpoint: [Filter characters(https://rickandmortyapi.com/api/character/?name)]
 
 ## User story:
 ```
@@ -46,8 +39,6 @@ As I user:
     https://www.youtube.com/watch?v=qbdSyMdjydM
 
 - Javascript events:
-
-    <!-- https://moringa.instructure.com/courses/186/pages/video-dom-events?module_item_id=35951 . -->
 
     https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMContentLoaded_event .
 

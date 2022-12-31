@@ -62,14 +62,14 @@ const characterList = document.getElementsByClassName('card-group');
 const searchCharacter = ()=>{
     form.addEventListener('submit', (e)=>{
         e.preventDefault();
-        fetch(`https://rickandmortyapi.com/api/character/?name${inputCharacter.value}`)
-        .then(response=>response.json())
-        .then(data=>{ 
+        fetch(`https://rickandmortyapi.com/api/character/?name=${inputCharacter.value}`)
+        .then(res => res.json())
+        .then(data => { 
             data.items.forEach((character)=>{
-                // const myCharacter = document.createElement('div');
-                characterList.innerHTML =
+                const myCharacter = document.createElement('div');
+                myCharacter.innerHTML = 
                 `
-                <div class="card-group">
+                
                     <div id="character-name" class="card">
                             <img class="card-img-top"alt="Card image cap" src =${character.image}></img>
                                 <div class="card-body">
@@ -81,9 +81,9 @@ const searchCharacter = ()=>{
                                     <small class="text-muted">Planet: ${character.origin.name}</small>
                                 </div>
                         </div>
-                </div>
+                
                 `
-                characterList.appendChild(character);
+                characterList.appendChild(myCharacter);
             })
         
         })
