@@ -1,6 +1,19 @@
 // Fire an event when the document has been completely parsed.
 window.addEventListener('DOMContentLoaded', makeCards);
 
+
+// Function to update the year dynamically
+
+function updateYear(){
+    const yearSpan = document.getElementById('year');
+    const currentYear = new Date().getFullYear();
+
+    yearSpan.textContent = currentYear;
+};
+
+updateYear();
+
+
 // Fetch the data from the public API URL.
 fetch("https://rickandmortyapi.com/api/character")
     // Jsonify the response.
